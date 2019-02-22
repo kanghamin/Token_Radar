@@ -33,16 +33,34 @@
       </div>
     </nav>
 
+	<div class="sidebar list-group list-group-flush" id="sidebar-wrapper">    
 
-    <div class="sidebar" id="sidebar-wrapper">
-      
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">유틸리티 토큰</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">증권형 토큰</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">NFT 토큰</a>
-        
+       <div class="dropdown">
+          <button class="btn dropdown-toggle list-group-item list-group-item-action" data-toggle="dropdown"  id="utilityTokenDropdown">유틸리티 토큰</button>          
+             <div aria-labelledby="utilityTokenDropdown" class="dropdown-menu">
+                <a href="#" class="dropdown-item" >utility1</a>
+                <a href="#" class="dropdown-item" >utility2</a>
+                <a href="#" class="dropdown-item" >utility3</a>
+             </div>
       </div>
-    </div>
+      <div class="dropdown">    
+         <button class="btn dropdown-toggle list-group-item list-group-item-action" data-toggle="dropdown" id="securiryTokenDropdown">증권형 토큰</button>
+             <div aria-labelledby="securiryTokenDropdown" class="dropdown-menu">
+                <a href="#" class="dropdown-item" >securiry1</a>
+                <a href="#" class="dropdown-item" >securiry2</a>
+                <a href="#" class="dropdown-item" >securiry3</a>
+             </div>
+         </div>
+       <div class="dropdown">    
+          <button class="btn dropdown-toggle list-group-item list-group-item-action" data-toggle="dropdown" id="NFTTokenDropdown">NFT 토큰</button>
+             <div aria-labelledby="NFTTokenDropdown" class="dropdown-menu">
+                <a href="#" class="dropdown-item" >NFT1</a>
+                <a href="#" class="dropdown-item" >NFT2</a>
+                <a href="#" class="dropdown-item" >NFT3</a>
+             </div>
+       </div>
+	
+    
     
     <div class="body">
     <table class="table table-dark">
